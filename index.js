@@ -13,6 +13,7 @@ mongoose.connect('mongodb://localhost:27017/game', {useNewUrlParser: true, useUn
     console.log("Error: " + err);
 });
 
+//This comment wasn't here before!
 
 app.use(express.static(__dirname + '/public'));
 
